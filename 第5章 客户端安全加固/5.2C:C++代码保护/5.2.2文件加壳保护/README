@@ -1,0 +1,3 @@
+UPX Android 加壳/脱壳命令：
+加壳：./upx --android-shlib  -o libtest_upx.so libtest.so
+脱壳：./upx -d libtest_upx.so -o unpack.so 

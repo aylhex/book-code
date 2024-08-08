@@ -1,0 +1,9 @@
+Package: com.test.tweak
+Name: TestTweak
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Ayl
+Author: Ayl
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

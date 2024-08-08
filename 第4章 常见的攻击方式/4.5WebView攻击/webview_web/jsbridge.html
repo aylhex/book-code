@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+
+    function testToast()  {
+        var data ="BridgeToastTest";
+        if(window.jsObj != null){
+        	jsObj.showToast(data);
+        } else {
+            alert("Bridge toast不存在!!!");
+        }
+    }
+</script>
+</head>
+<body>
+	 <br>
+    <center><button onclick="testToast()">Toast Click</button></center>
+</body>
+</html>
